@@ -157,3 +157,18 @@ img {
   bottom: 0;
   width: 100%;
 }
+
+/* Bar pour descendre */
+
+img.arrow {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    z-index: 99;
+    left: 0;
+    top: 85%;
+    margin-top: -2.5em;
+    animation: ArrowAnim 1s infinite;
+    vertical-align: middle;
+}
+
