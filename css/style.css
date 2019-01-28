@@ -4,7 +4,11 @@
 @font-face {
   font-family: 'icomoon';
   src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/123941/icomoon_copy.eot");
-  src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/123941/icomoon_copy.eot") format("embedded-opentype"), url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/123941/icomoon_copy.woff") format("woff"), url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/123941/icomoon_copy.ttf") format("truetype"), url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/123941/icomoon_copy.svg") format("svg");
+  src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/123941/icomoon_copy.eot") 
+  format("embedded-opentype"), url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/123941/icomoon_copy.woff") 
+  format("woff"), url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/123941/icomoon_copy.ttf") 
+  format("truetype"), url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/123941/icomoon_copy.svg") 
+  format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -70,6 +74,7 @@ img {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .top-bar-section .has-dropdown {
   position: static;
+  
 }
 .top-bar-section .has-dropdown a {
   position: relative;
@@ -151,7 +156,7 @@ img {
 }
 
 .p {
-  color: black;
+  color: white;
   text-align: center;
   position: fixed;
   bottom: 0;
@@ -170,5 +175,13 @@ img.arrow {
     margin-top: -2.5em;
     animation: ArrowAnim 1s infinite;
     vertical-align: middle;
+}
+
+/* Ma section 
+
+section {
+  padding: 8rem 0;
+  display: block;
+  box-sizing: border-box;
 }
 
